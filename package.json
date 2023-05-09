@@ -1,0 +1,24 @@
+{
+  "name": "learn-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasun95/tailwind-crash-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dasun95/tailwind-crash-course/issues"
+  },
+  "homepage": "https://github.com/dasun95/tailwind-crash-course#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
